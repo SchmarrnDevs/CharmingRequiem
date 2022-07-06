@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "charmingrequiem",
+  "version": "${version}",
+  "name": "Charming Requiem",
+  "description": "Making the Totem of Preserving from Charm compatible with Requiem",
+  "authors": [
+    "Andreas Kohler"
+  ],
+  "contact": {
+    "email": "contact@schmarrn.dev",
+    "sources": "https://github.com/SchmarrnDevs/CharmingRequiem"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/charmingrequiem/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.schmarrn.charmingrequiem.CharmingRequiem"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": "1.18.2",
+    "requiem": ">=2.0.0-beta.1",
+    "charm": ">=4.0.0"
+  }
+}
